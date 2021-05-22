@@ -24,3 +24,16 @@ describe 'class PigLatinizer' do
   end
 
 end
+
+# describe 'TextAnalyzer Class' do
+#   let!(:words) { TextAnalyzer.new("mirror mirror on the wall") }
+
+#   it 'can initialize a new instance of the class' do
+#     expect(TextAnalyzer.new("hey yall")).to be_an_instance_of(TextAnalyzer)
+#   end
+
+#   it 'can have text' do
+#     expect(words.text).to eq("mirror mirror on the wall")
+#   end
+# end
+# end
